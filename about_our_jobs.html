@@ -13,68 +13,21 @@
 <meta name="theme-color" content="#000000">
 	
 	<meta charset="utf-8">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	
+	<link rel="stylesheet" href="styles.css">
 	<title>Untitled Document</title>
 	
 	
-	<style>
-		h1 {font-family: 'Mansalva', cursive;}
-		body{background-color: #ff5722;}
-		
 
-		.navbar ul li {
-			display:inline;
-		}
-		ul a {
-			padding:8px; 
-			color:white; 
-			background-color:#008000; 
-			font-family:Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
-		}
-		.navbar a{
-		 text-decoration:none; width:8em;
-		}
-		li .navbar a:hover,
-		li .navbar a:active
-		{
-			border-style:inset; 
-			color:green;
-		}
-		
-		.logo{
-			width:20%;
-			float:left;
-		}
-		.navbar{
-			width:80%;
-			float:left;
-		}
-		
-		.hide{
-			display:none;
-		}
-		
-		ul,li{
-			margin:0;
-			padding:10px;
-			list-style-type: none;
-		}
-		
-		header{
-			background-color:black;
-			width:100%;
-			display: block;
-			padding: 5px;
-		}
-	
-		.fix{
-			
-			clear:both;
-		}
-	</style>
 </head>
 
 <body>
 
+	
+
+	
+	
 	
 	<header>
 		<div class="logo">	
@@ -83,8 +36,11 @@
 		<img src="hot beans logo.jpg" width="100%" alt=  "hot beans logo">
  </div>
  
- 	<div class="navbar">
-	<ul>
+ <!-- Start Navigation Menu -->
+<div class="topnav">
+
+  <div id="myLinks" class="navbar">
+   <ul>
 		<li> <a href="about_our_jobs.html">jobs</a> </li>
 		<li> <a href="profile.html"> profile</a></li>
 		<li> <a href="Existing_trainee_web_developers.html">  trainees</a> </li>
@@ -92,13 +48,15 @@
 		<li> <a href="Application_forms_online.html"> applitcation</a> </li>
 		<li> <a href="how_to_apply.html"> apply</a> </li>
 		<li> <a href="contacts.html"> contact </a> </li>
-		<li> <a href="index.html"> homepage </a> </li>
-		
-		
-		
-		
+
 	</ul>
-	</div>
+  </div>
+  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <i class="fa fa-bars"></i>
+  </a>
+</div>
+  <!-- End Navigation Menu -->
+ 
 	<div class="fix"></div>
 	</header>
 	
@@ -119,7 +77,7 @@
 		
 		footer text
 	</footer>
-	
+	<script src="scripts.js"></script>
 </body>
 </html>
 
